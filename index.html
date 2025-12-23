@@ -9,18 +9,90 @@ SALVE MARIA
     <head>
         <meta charset="UTF-8">
         <title>Casa Criativa</title>
+    
+        
+
+
+    <style>
+
+        body {
+            background: #e5e5e5;
+            color: #25282B;
+
+            text-align: center;
+        
+        }
+
+    button {
+
+        color: #ff5e84;       
+        border: none;   
+        background: none;
+        font-weight: bold;
+    }
+
+    .fat {
+
+        color: white;       
+        
+        background: #ff5e84;
+    }
+    
+    #footer a{
+        color: #25282B;
+        text-decoration: none;
+
+    }  
+    
+    .hide {
+        display: none;
+    }
+
+
+
+
+    </style>
+
     </head>
 
+
     <body>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq6n4mFh4PSJ5VTJjb29UsSB87LVHRR4PiIA&s" alt="">
+        <img src="logo.png" alt="">
     
         <p>
             Ficar em casa em períodos longos, não deve ser fácil.
+        </p>
+        <p>
+             Por isso, iremos catalogar ideias,<strong> brincadeiras, jogos, filmes, livros, cursos, 
+             dicas</strong> e tudo que for necessário para tornar esse momento mais interessante.
+        </p>
+        <p>
+            Comece clicando em ver ideias para ver as 
+            ideias cadastradas e contribua adicionando a sua ideia 
+        </p>
 
-Por isso, iremos catalogar ideias , brincadeiras, jogos, filmes, livros, cursos, dicas e tudo que for necessário para tornar esse momento mais interessante.
+        <button> + Adicionar Ideia</button>
 
-Comece clicando em ver ideias para ver ideias cadastradas e contribua adicionando a sua ideia 
-</p>
+        <button class="fat"> Ver Ideia</button>
+
+        <p id="footer"> Com ❤️ <a href="http://Rocketseat.com.br">Rocketseat</a></p>
+
+        <script>
+ 
+        document
+            .querySelector("buuton.fat")        
+            .addEventListener("click", function(){
+                document
+                    .querySelector("#footer")
+                    .casslist
+                    .toggle("hide")   
+
+
+                   
+            }) 
+            
+        </script>
+
     </body>
 
 
